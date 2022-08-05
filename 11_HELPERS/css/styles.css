@@ -1,5 +1,5 @@
 body {
-padding-bottom: 100px;
+    padding-bottom: 1000px;
 }
 
 .box {
@@ -10,4 +10,15 @@ padding-bottom: 100px;
 .box.float-end {
     background-color: blue;
     width: 50px;
+}
+
+.box-sticky,
+.box-fixed {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.box-fixed {
+    background-color: blueviolet;
 }
